@@ -11,5 +11,13 @@
 
   <artifactId>prometheus</artifactId>
 
-
+<dependencies>
+  <dependency>
+    <groupId>io.micrometer</groupId>
+    <artifactId>micrometer-registry-prometheus</artifactId>
+    <version>1.6.1</version>
+    <scope>runtime</scope>
+  </dependency>
+  
+</dependencies>
 </project>

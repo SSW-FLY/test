@@ -7,9 +7,17 @@ spring:
     username: ec
     password: ec
     virtual-host: /ec
-
+## 配置普罗米修斯
 management:
+  metrics:
+    export:
+      prometheus:
+        enabled: true
   endpoints:
+    metrics:
+      enabled: true
+    prometheus:
+      enabled: true
     web:
       exposure:
         include: '*'

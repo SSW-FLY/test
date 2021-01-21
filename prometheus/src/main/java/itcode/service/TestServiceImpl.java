@@ -27,8 +27,6 @@ public class TestServiceImpl {
         new Thread(a, "a").start();
         new Thread(a, "b").start();
         new Thread(a, "c").start();
-
-
     }
 
     public void getConsumer() throws IOException {

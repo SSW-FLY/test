@@ -9,7 +9,15 @@ spring:
     virtual-host: /ec
 
 management:
+  metrics:
+    export:
+      prometheus:
+        enabled: true
   endpoints:
+    metrics:
+      enabled: true
+    prometheus:
+      enabled: true
     web:
       exposure:
         include: '*'
