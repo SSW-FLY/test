@@ -1,11 +1,15 @@
 package itcode.config;
 
+import com.rabbitmq.client.Channel;
+import com.rabbitmq.client.Consumer;
 import org.springframework.amqp.core.Binding;
 import org.springframework.amqp.core.BindingBuilder;
 import org.springframework.amqp.core.Queue;
 import org.springframework.amqp.core.TopicExchange;
 import org.springframework.amqp.rabbit.connection.CachingConnectionFactory;
+import org.springframework.amqp.rabbit.connection.Connection;
 import org.springframework.amqp.rabbit.connection.ConnectionFactory;
+import org.springframework.amqp.rabbit.core.BrokerEventListener;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -43,6 +47,12 @@ public class RabbitConfig {
         return new Queue(TOPIC_QUEUE1);
     }
 
+    //创建队列
+    @Bean(TOPIC_QUEUE2)
+    public Queue topicQueue() {
+        return new Queue(TOPIC_QUEUE1);
+    }
+
     //创建交换机
     @Bean("ecExchange")
     public TopicExchange topicExchange() {
@@ -53,5 +63,10 @@ public class RabbitConfig {
     @Bean
     public Binding topicBinding1() {
         return BindingBuilder.bind(topicQueue1()).to(topicExchange()).with(TOPIC_QUEUE1);
+    }
+
+    @Bean
+    public Binding binding(){
+        return BindingBuilder.bind(topicQueue()).to(topicExchange()).with(TOPIC_QUEUE2);
     }
 }

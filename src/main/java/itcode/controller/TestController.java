@@ -2,12 +2,7 @@ package itcode.controller;
 
 import itcode.service.TestServiceImpl;
 import itcode.service.Tut6Client;
-import java.util.concurrent.BlockingQueue;
-import java.util.concurrent.ExecutorService;
-import java.util.concurrent.Executors;
-import java.util.concurrent.ThreadFactory;
-import java.util.concurrent.ThreadPoolExecutor;
-import java.util.concurrent.TimeUnit;
+import java.io.IOException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -32,8 +27,8 @@ public class TestController {
     }
 
     @GetMapping("/api/test/hana")
-    public String hana() {
-        testService.d();
+    public String hana() throws IOException {
+        testService.getConsumer();
         return "hana";
     }
 }
