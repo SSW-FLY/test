@@ -1,0 +1,15 @@
+server:
+  port: 8081
+spring:
+  rabbitmq:
+    host: 10.16.2.1
+    port: 5672
+    username: ec
+    password: ec
+    virtual-host: /ec
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
