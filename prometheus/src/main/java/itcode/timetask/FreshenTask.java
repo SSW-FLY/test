@@ -24,7 +24,7 @@ public class FreshenTask {
     private PrometheusCustomMonitor monitor;
 
     @Scheduled(cron = "")
-    @SchedulerLock(name = "HMA_DAILY_MONITOR_LOCK", lockAtLeastFor = 10000, lockAtMostFor = 3600000)
+    @SchedulerLock(name = "HMA_DAILY_MONITOR_LOCK", lockAtLeastFor = 5000, lockAtMostFor = 10000)
     public void task() {
         Connection connection = connectionFactory.createConnection();
         Channel channel = connection.createChannel(false);
