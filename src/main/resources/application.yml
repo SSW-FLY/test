@@ -1,0 +1,9 @@
+server:
+  port: 8111
+spring:
+  rabbitmq:
+    host: 10.16.2.1
+    port: 5672
+    username: ec
+    password: ec
+    virtual-host: /ec

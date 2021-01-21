@@ -1,0 +1,7 @@
+
+w
+java:S1450"\Remove the "redisTemplate" field and declare it as a local variable in the relevant methods.(œúÛœúÿÿÿÿ
+L
+java:S1068"1Remove this unused "redisTemplate" private field.(œúÛœúÿÿÿÿ
+P
+java:S1128":Remove this unused import 'java.util.concurrent.TimeUnit'.(Æ™ş
