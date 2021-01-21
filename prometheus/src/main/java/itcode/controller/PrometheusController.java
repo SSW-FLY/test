@@ -19,7 +19,9 @@ public class PrometheusController {
     @GetMapping("/api/test/hello")
     public String hello() throws IOException {
 
-      testService.getConsumer();
+        testService.getConsumer();
         return "ok";
     }
+
+
 }

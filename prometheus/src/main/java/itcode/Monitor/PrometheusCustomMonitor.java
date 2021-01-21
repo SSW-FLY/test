@@ -1,7 +1,6 @@
 package itcode.Monitor;
-
-import io.micrometer.core.instrument.Counter;
-import io.micrometer.core.instrument.Gauge;
+import io.micrometer.core.instrument.MeterRegistry;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 /**
@@ -11,7 +10,14 @@ import org.springframework.stereotype.Component;
 @Component
 public class PrometheusCustomMonitor {
 
-    private Counter counter;
+    private final MeterRegistry registry;
 
-    private Gauge gauge;
+    @Autowired
+    public PrometheusCustomMonitor(MeterRegistry meterRegistry) {
+        this.registry = meterRegistry;
+    }
+
+    public void setLongGauge(Long v) {
+        registry.gauge("LongGauge", v, Long::doubleValue);
+    }
 }
