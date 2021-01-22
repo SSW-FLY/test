@@ -4,7 +4,6 @@
     <list default="true" id="6024c0c6-cb60-43d2-8b37-389cab4dad9c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/prometheus/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/prometheus/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prometheus/target/classes/itcode/timetask/Freshen.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -171,7 +170,7 @@
               <path>
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
                 <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="Failed" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Finished" type="7427dc5b:ServiceModel$ServiceGroupNode" />
               </path>
             </expand>
             <select />
@@ -289,7 +288,7 @@
       <workItem from="1611200527135" duration="16185000" />
       <workItem from="1611223558781" duration="3190000" />
       <workItem from="1611226764958" duration="3784000" />
-      <workItem from="1611294827724" duration="651000" />
+      <workItem from="1611294827724" duration="1402000" />
     </task>
     <servers />
   </component>
