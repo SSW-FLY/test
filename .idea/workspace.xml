@@ -2,14 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6024c0c6-cb60-43d2-8b37-389cab4dad9c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/prometheus/src/main/java/itcode/controller/TestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/prometheus/message.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prometheus/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/prometheus/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prometheus/src/main/resources/application-default.yml" beforeDir="false" afterPath="$PROJECT_DIR$/prometheus/src/main/resources/application-default.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prometheus/src/test/java/itcode/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/prometheus/src/test/java/itcode/ImpTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prometheus/src/test/java/itcode/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/prometheus/src/test/java/itcode/Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/prometheus/target/classes/application-default.yml" beforeDir="false" afterPath="$PROJECT_DIR$/prometheus/target/classes/application-default.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prometheus/target/classes/itcode/PrometheusApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/prometheus/target/classes/itcode/PrometheusApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prometheus/target/test-classes/itcode/Test.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -115,7 +111,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.PrometheusApplication">
+  <component name="RunManager" selected="JUnit.Test.test2">
     <configuration name="ImpTest.Test02" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="prometheus" />
       <extension name="coverage">
@@ -148,7 +144,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ImpTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Test.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="prometheus" />
       <extension name="coverage">
         <pattern>
@@ -157,37 +153,25 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="itcode" />
-      <option name="MAIN_CLASS_NAME" value="itcode.ImpTest" />
+      <option name="MAIN_CLASS_NAME" value="itcode.Test" />
       <option name="METHOD_NAME" value="test1" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="test" />
+    <configuration name="Test.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="prometheus" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="itcode.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="itcode.Application" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true">
-      <module name="test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="itcode.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="itcode.Application" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="ALTERNATIVE_JRE_PATH" value="C:\Program Files\Java\jdk1.8.0_212\jre" />
+      <option name="PACKAGE_NAME" value="itcode" />
+      <option name="MAIN_CLASS_NAME" value="itcode.Test" />
+      <option name="METHOD_NAME" value="test2" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -207,11 +191,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Test.test2" />
+        <item itemvalue="JUnit.Test.test1" />
         <item itemvalue="Spring Boot.PrometheusApplication" />
         <item itemvalue="JUnit.ImpTest.test" />
         <item itemvalue="JUnit.ImpTest.Test02" />
-        <item itemvalue="JUnit.ImpTest.test1" />
-        <item itemvalue="Spring Boot.Application" />
       </list>
     </recent_temporary>
   </component>
@@ -352,6 +336,9 @@
       <workItem from="1612247209259" duration="262000" />
       <workItem from="1612250397919" duration="1457000" />
       <workItem from="1612423570043" duration="5946000" />
+      <workItem from="1612519763364" duration="167000" />
+      <workItem from="1613807956500" duration="275000" />
+      <workItem from="1613994333345" duration="936000" />
     </task>
     <servers />
   </component>
@@ -397,38 +384,38 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="688" y="445" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1920.1040/10.1080.1536.824@0.0.1920.1040" timestamp="1611220078445" />
-    <state width="1630" height="430" key="GridCell.Tab.0.bottom" timestamp="1612519733348">
+    <state width="1877" height="375" key="GridCell.Tab.0.bottom" timestamp="1613994949107">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1630" height="430" key="GridCell.Tab.0.bottom/0.0.1920.1040/10.1080.1536.824@0.0.1920.1040" timestamp="1612519733348" />
-    <state width="1630" height="430" key="GridCell.Tab.0.center" timestamp="1612519733348">
+    <state width="1877" height="375" key="GridCell.Tab.0.bottom/0.0.1920.1040/10.1080.1536.824@0.0.1920.1040" timestamp="1613994949107" />
+    <state width="1877" height="375" key="GridCell.Tab.0.center" timestamp="1613994949106">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1630" height="430" key="GridCell.Tab.0.center/0.0.1920.1040/10.1080.1536.824@0.0.1920.1040" timestamp="1612519733348" />
-    <state width="1630" height="430" key="GridCell.Tab.0.left" timestamp="1612519733348">
+    <state width="1877" height="375" key="GridCell.Tab.0.center/0.0.1920.1040/10.1080.1536.824@0.0.1920.1040" timestamp="1613994949106" />
+    <state width="1877" height="375" key="GridCell.Tab.0.left" timestamp="1613994949106">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1630" height="430" key="GridCell.Tab.0.left/0.0.1920.1040/10.1080.1536.824@0.0.1920.1040" timestamp="1612519733348" />
-    <state width="1630" height="430" key="GridCell.Tab.0.right" timestamp="1612519733348">
+    <state width="1877" height="375" key="GridCell.Tab.0.left/0.0.1920.1040/10.1080.1536.824@0.0.1920.1040" timestamp="1613994949106" />
+    <state width="1877" height="375" key="GridCell.Tab.0.right" timestamp="1613994949106">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1630" height="430" key="GridCell.Tab.0.right/0.0.1920.1040/10.1080.1536.824@0.0.1920.1040" timestamp="1612519733348" />
-    <state width="1630" height="430" key="GridCell.Tab.1.bottom" timestamp="1612519733348">
+    <state width="1877" height="375" key="GridCell.Tab.0.right/0.0.1920.1040/10.1080.1536.824@0.0.1920.1040" timestamp="1613994949106" />
+    <state width="1877" height="375" key="GridCell.Tab.1.bottom" timestamp="1613994949107">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1630" height="430" key="GridCell.Tab.1.bottom/0.0.1920.1040/10.1080.1536.824@0.0.1920.1040" timestamp="1612519733348" />
-    <state width="1630" height="430" key="GridCell.Tab.1.center" timestamp="1612519733348">
+    <state width="1877" height="375" key="GridCell.Tab.1.bottom/0.0.1920.1040/10.1080.1536.824@0.0.1920.1040" timestamp="1613994949107" />
+    <state width="1877" height="375" key="GridCell.Tab.1.center" timestamp="1613994949107">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1630" height="430" key="GridCell.Tab.1.center/0.0.1920.1040/10.1080.1536.824@0.0.1920.1040" timestamp="1612519733348" />
-    <state width="1630" height="430" key="GridCell.Tab.1.left" timestamp="1612519733348">
+    <state width="1877" height="375" key="GridCell.Tab.1.center/0.0.1920.1040/10.1080.1536.824@0.0.1920.1040" timestamp="1613994949107" />
+    <state width="1877" height="375" key="GridCell.Tab.1.left" timestamp="1613994949107">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1630" height="430" key="GridCell.Tab.1.left/0.0.1920.1040/10.1080.1536.824@0.0.1920.1040" timestamp="1612519733348" />
-    <state width="1630" height="430" key="GridCell.Tab.1.right" timestamp="1612519733348">
+    <state width="1877" height="375" key="GridCell.Tab.1.left/0.0.1920.1040/10.1080.1536.824@0.0.1920.1040" timestamp="1613994949107" />
+    <state width="1877" height="375" key="GridCell.Tab.1.right" timestamp="1613994949107">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1630" height="430" key="GridCell.Tab.1.right/0.0.1920.1040/10.1080.1536.824@0.0.1920.1040" timestamp="1612519733348" />
+    <state width="1877" height="375" key="GridCell.Tab.1.right/0.0.1920.1040/10.1080.1536.824@0.0.1920.1040" timestamp="1613994949107" />
     <state width="1630" height="430" key="GridCell.Tab.2.bottom" timestamp="1612519733348">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

@@ -1,5 +1,9 @@
 package itcode;
 
+import java.io.File;
+import java.io.FileOutputStream;
+import java.io.FileWriter;
+import java.io.IOException;
 import org.joda.time.DateTime;
 
 /**
@@ -21,5 +25,26 @@ public class Test {
         System.out.println(dateTime2);
         System.out.println(dateTime3);
         System.out.println(now.getHourOfDay());
+        long millis = DateTime.now().withSecondOfMinute(0).withMillisOfSecond(0).getMillis();
+        System.out.println(System.currentTimeMillis());
+        System.out.println(millis);
+    }
+
+    @org.junit.Test
+    public void test2() {
+        File file = new File("message.txt");
+        try {
+            if (!file.exists()) {
+                if (file.createNewFile()) {
+                    System.out.println("new message file");
+                }
+            }
+            FileOutputStream out = new FileOutputStream(file, true);
+            String s = "test" + System.lineSeparator();
+            out.write(s.getBytes());
+            out.close();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
     }
 }
